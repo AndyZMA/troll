@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <style>
+        body {
+  background: linear-gradient(to bottom, #000000, #1a1a1a);
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #ffffff, #aaaaaa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
+  position: relative;
+  animation: glitch 1.5s infinite;
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: 2px 2px #ff0000, -2px -2px #00ff00;
+  }
+  25% {
+    text-shadow: -2px 2px #ff0000, 2px -2px #00ff00;
+  }
+  50% {
+    text-shadow: 2px -2px #ff0000, -2px 2px #00ff00;
+  }
+  75% {
+    text-shadow: -2px -2px #ff0000, 2px 2px #00ff00;
+  }
+  100% {
+    text-shadow: 2px 2px #ff0000, -2px -2px #00ff00;
+  }
+}
+
+footer {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 20px;
+}
+
+
+    </style>
+
+
+
+<div class="container">
+    <h1>Site Down for Working a Month Without Pay</h1>
+    <!-- <footer>if u want your site working PAY US!!!</footer> -->
+  </div>
+  
+    
+</body>
+</html>
